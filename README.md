@@ -1,2 +1,9 @@
 pythonStarter
 =============
+http://python.org.ar/AprendiendoPython
+http://www.codecademy.com/es/courses/python-beginner-es-uW8F7/4/1?curriculum_id=50fc7aab5fab3aa9c2002444
+http://www.cursosdeprogramacionadistancia.com/static/pdf/material-sin-personalizar-python.pdf
+http://librosweb.es/libro/python/
+https://docs.python.org/3/library/unittest.html
+http://planetcassandra.org/getting-started-with-cassandra-and-python/
+http://stackoverflow.com/questions/12179271/python-classmethod-and-staticmethod-for-beginner
