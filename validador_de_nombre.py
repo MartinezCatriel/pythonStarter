@@ -1,8 +1,9 @@
 #validador de nombre
-class ValidarNombre(object):
+class Nombre(object): #nombre de clases en singular, siempre que no se herede de ninguna clase por defecto implementar object
 	
 	@staticmethod
 	def ValidarElNombre(nombre, validaciones):
+		print(nombre)
 		for f in validaciones:
 			print(f)
 			
@@ -19,6 +20,12 @@ if len(nombre) > 12:
 	print("El nombre de usuario no puede contener más de 12 caracteres")
 if not nombre.isalnum():
 	print("El nombre de usuario puede contener solo letras y números")
+
 	
-	
-ValidarNombre.ValidarElNombre("", ["hola", "chau"])
+ValidarNombre.ValidarElNombre("nombreavalidar",["hola", "chau"])
+
+nombre_de_la_funcion = "ValidarElNombre"
+if nombre_de_la_funcion in locals():
+	print(str(True))
+else :
+	print(str(False))
